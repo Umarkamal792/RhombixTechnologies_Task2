@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="player-container">
+        <input type="text" id="search" placeholder="Search music...">
+        <h1>category</h1>
+        <div class="categories">
+            <button class="category" data-category="Turkish">Turkish</button>
+            <button class="category" data-category="Pakistani">Pakistani</button>
+            <button class="category" data-category="Indian">Indian</button>
+        </div>
+
+        <div id="song-list" class="song-list"></div>
+
+        <audio id="audio-player" controls></audio>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
